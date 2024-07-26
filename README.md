@@ -11,7 +11,7 @@ The One Stop Insurance Program is a Python application designed for the One Stop
 - **Invoice Generation:** Generate detailed invoices, including insurance premiums, optional coverages, HST, and payment schedules.
 - **File Management:** Automatically updates policy and claims data files, creates backups, and manages file operations securely.
 - **User-Friendly Interface:** Includes input validation, default value assignments for ease of debugging, and a progress bar indicating data saving.
-- **Error Handling:** Handles OS exceptions and ensures all files are closed properly to prevent data loss.
+- **Error Handling:** Handles OS exceptions and ensures all files are closed properly to prevent data loss. Ctrl-C is intercepted to allow for a graceful exit (and is disabled during file write operations).
 
 ## Program Structure
 
