@@ -42,6 +42,7 @@ The program includes multiple functions to handle various tasks, such as:
   [PolicyNumber, CreationDate, FirstName, LastName, StreetAddress, City, Province, PostalCode, PhoneNumber, NumberOfCars, ExtraLiability(Y/N), GlassCoverage(Y/N, LoanerCar(Y/N), PaymentType(Full/Monhly/Down Pay), DownPayment(0.00/Value), TotalInsurancePremium]
   ```
   - **Primary Key:** `PolicyNumber`
+    
 - `claims.dat`: Stores claim information.
   ```
   [PolicyNumber, ClaimCounter, ClaimNumber, ClaimDate, ClaimAmount]
