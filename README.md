@@ -54,14 +54,14 @@ The program includes multiple functions to handle various tasks, such as:
 The `const.dat` file contains default values for the program. The format is as follows (8 entries):
 
 ```
-`NEXTPOLICY : 1944 : Next Policy Number
+NEXTPOLICY : 1944 : Next Policy Number
 BASICPREMIUM : 869.00 : Basic Premium
 ADDITIONALCAR : 25.00 : Discount for Additional Cars
 EXTRALIAB : 130.00 : Cost of Extra Liability Coverage
 GLASSCOVER : 86.00 : Cost of Glass Coverage
 CARLOANER : 58.00 : Cost for Loaner Car Coverage
 HSTRATE : 15.00 : HST Percentage Rate
-MONTHLYFEE : 39.99 : Processing Fee for Monthly Payments`
+MONTHLYFEE : 39.99 : Processing Fee for Monthly Payments
 ```
 
 - Each line contains a keyword, its value, and an optional comment, separated by a colon (`:`).
