@@ -49,7 +49,7 @@ The program includes multiple functions to handle various tasks, such as:
   ```
   - **Primary Key:** Composite key consisting of `PolicyNumber` and `ClaimCounter`
 
-### const.dat
+### Global Settings File
 
 The `const.dat` file contains default values for the program. The format is as follows (8 entries):
 
