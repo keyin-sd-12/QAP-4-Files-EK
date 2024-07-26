@@ -39,14 +39,14 @@ The program includes multiple functions to handle various tasks, such as:
 
 - `policy.dat`: Stores policy information in CSV format.
   ```
-  [policy_id, current_date, first_name, last_name, street_address, address_city, address_province, address_postalcode, phone_number, number_of_cars, extra_liability_str, glass_coverage_str, loaner_car_str, payments_str, down_payment, total_insurance_premium]
+  [PolicyNumber, CreationDate, FirstName, LastName, StreetAddress, City, Province, PostalCode, PhoneNumber, NumberOfCars, ExtraLiability(Y/N), GlassCoverage(Y/N, LoanerCar(Y/N), PaymentType(Full/Monhly/Down Pay), DownPayment(0.00/Value), TotalInsurancePremium]
   ```
-  - **Primary Key:** `policy_id`
+  - **Primary Key:** `PolicyNumber`
 - `claims.dat`: Stores claim information.
   ```
-  [policy_id, claim_counter, claim_number, claim_date, claim_amount]
+  [PolicyNumber, ClaimCounter, ClaimNumber, ClaimDate, ClaimAmount]
   ```
-  - **Primary Key:** Composite key consisting of `policy_id` and `claim_counter`
+  - **Primary Key:** Composite key consisting of `PolicyNumber` and `ClaimCounter`
 
 ### const.dat
 
