@@ -103,10 +103,10 @@ Sample invoices and program output can be found in the `samples` folder.
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/qap-4-files-ek.git
+   git clone https://github.com/yourusername/QAP-4-Files-EK.git
    ```
 2. Navigate to the project directory:
    ```
-   cd qap-4-files-ek
+   cd QAP-4-Files-EK
    ```
    
