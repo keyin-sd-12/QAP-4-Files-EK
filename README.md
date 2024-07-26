@@ -37,13 +37,13 @@ The program includes multiple functions to handle various tasks, such as:
 
 ### Data Structures
 
-- `policy.dat`: Stores policy information in CSV format.
+- `policy.dat`: Stores policy information (CSV format).
   ```
   [PolicyNumber, CreationDate, FirstName, LastName, StreetAddress, City, Province, PostalCode, PhoneNumber, NumberOfCars, ExtraLiability(Y/N), GlassCoverage(Y/N, LoanerCar(Y/N), PaymentType(Full/Monhly/Down Pay), DownPayment(0.00/Value), TotalInsurancePremium]
   ```
   - **Primary Key:** `PolicyNumber`
     
-- `claims.dat`: Stores claim information.
+- `claims.dat`: Stores past claim information (CSV format).
   ```
   [PolicyNumber, ClaimCounter, ClaimNumber, ClaimDate, ClaimAmount]
   ```
