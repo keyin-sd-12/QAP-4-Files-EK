@@ -93,20 +93,3 @@ MONTHLYFEE : 39.99 : Processing Fee for Monthly Payments
 
 Sample invoices and program output can be found in the `samples` folder.
 
-## Requirements
-
-- Python 3.x
-- `const.dat` file for default values
-- `functions.py` for input validation and formatting functions
-
-## Installation
-
-1. Clone the repository:
-   ```
-   git clone https://github.com/yourusername/QAP-4-Files-EK.git
-   ```
-2. Navigate to the project directory:
-   ```
-   cd QAP-4-Files-EK
-   ```
-   
